@@ -1,0 +1,47 @@
+h1 {
+    color: purple;
+}
+
+ h2{
+
+     color: blue;
+
+ }
+
+ p {
+
+      color: blue;
+
+ }
+ 
+ /* Estilo del botón de "Listo" */
+button[type="submit"] {
+    background-color: #28a745; /* Color verde */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838; /* Verde más oscuro al pasar el mouse */
+}
+
+/* Estilo del botón de "Borrar" */
+button[type="reset"] {
+    background-color: #dc3545; /* Color rojo */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="reset"]:hover {
+    background-color: #c82333; /* Rojo más oscuro al pasar el mouse */
+}

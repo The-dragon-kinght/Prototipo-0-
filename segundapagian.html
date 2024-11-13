@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <link rel="icon"   type="image/png" href="IA.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página con JavaScript</title>
+</head>
+<body>
+    <h1>Primer proyecto de HTML5</h1>
+     <h2>Formulario html5 con JavaScript</h2> <br>
+
+     
+     <p>en este primer proyecto relize un programa en HTML5 y conjunto con Javascript
+     aplicare mis conocimientos 
+     </p>
+
+    
+    <p>este es un formulario para determinar si
+     tienes lo necesario para trabajar con machine learning en el cual podras llenar datos personales
+     y posteriormente llenaras un formulario para trabajar con machine learning </p>
+
+
+    <!--Articulo 1 (Que es el machine learning)-->
+     <article>
+     <section>
+
+     <h1>¿ QUE ES EL MACHINE LEARNING?</h1>
+
+      <img src="MachineLearning.png" alt="MachineLearning" width="300">
+
+
+
+      <p> El aprendizaje automático (AA); también llamado automatizado, computacional, de máquinas, o maquinal1​ (del inglés machine learning, ML), es el subcampo de las ciencias de la computación y una rama de la inteligencia artificial, cuyo objetivo es desarrollar técnicas que permitan que las computadoras aprendan. Se dice que un agente aprende cuando su desempeño mejora con la experiencia y mediante el uso de datos; es decir, cuando la habilidad no estaba presente en su genotipo o rasgos de nacimiento.2​ "En el aprendizaje de máquinas un computador observa datos, construye un modelo basado en esos datos y utiliza ese modelo a la vez como una hipótesis acerca del mundo y una pieza de software que puede resolver problemas".3​
+
+        En muchas ocasiones el campo de actuación del aprendizaje automático se solapa con el de la estadística inferencial, ya que las dos disciplinas se basan en el análisis de datos. Sin embargo, el aprendizaje automático incorpora las preocupaciones de la complejidad computacional de los problemas. Muchos problemas son de clase NP-hard, por lo que gran parte de la investigación realizada en aprendizaje automático está enfocada al diseño de soluciones factibles a esos problemas. El aprendizaje automático también está estrechamente relacionado con el reconocimiento de patrones. El aprendizaje automático puede ser visto como un intento de automatizar algunas partes del método científico mediante métodos matemáticos. Por lo tanto es un proceso de inducción del conocimiento.
+        
+        El aprendizaje automático tiene una amplia gama de aplicaciones, incluyendo motores de búsqueda, diagnósticos médicos, detección de fraude en el uso de tarjetas de crédito, análisis de mercado para los diferentes sectores de actividad, clasificación de secuencias de ADN, reconocimiento del habla y del lenguaje escrito, juegos y robótica.  </p>
+
+    </section>       
+     </article>
+
+
+    <!--Referencia wikipedia-->
+    <a  target="_blank" href="https://es.wikipedia.org/wiki/Wikipedia:Portada">Referencia wikipedia</a> <br> <br>
+
+    
+      <!--Seccion 1 (funcionamiento de los componentes de hardware para machine learning)-->
+       <section>
+             <h1>Funcionamiento de los componentes hardware para Machine Learning</h1>
+               
+              <img src="redes neuronales artificiales.gif" alt="Redes neuronales artificiales">
+
+           <p>
+            . Unidades de Procesamiento Gráfico (GPUs)
+Función:
+
+Las GPUs están diseñadas para ejecutar múltiples operaciones de manera simultánea, haciendo cálculos en paralelo, lo que es ideal para el procesamiento de grandes cantidades de datos y las operaciones matemáticas complejas de machine learning.
+Son esenciales para el entrenamiento de redes neuronales profundas y otros modelos de aprendizaje profundo, ya que estas tareas requieren procesar matrices y vectores en paralelo, algo para lo que las GPUs están optimizadas.
+Uso en Machine Learning:
+
+Las GPUs aceleran el proceso de entrenamiento, permitiendo que los modelos que normalmente tomarían días para entrenarse en una CPU se completen en solo horas o minutos.
+Son útiles tanto en entornos de desarrollo como de producción, aunque en producción suelen utilizarse para tareas de inferencia (predecir resultados en tiempo real).
+2. Unidades de Procesamiento Tensorial (TPUs)
+Función:
+
+Las TPUs son procesadores especializados diseñados por Google específicamente para machine learning. Están optimizadas para operaciones de cálculo matricial y procesamiento de tensor, que son la base de los modelos de aprendizaje profundo.
+Las TPUs están pensadas para optimizar el rendimiento y reducir el consumo de energía al ejecutar modelos de aprendizaje profundo, y son especialmente eficientes en redes neuronales convolucionales (CNN) y redes recurrentes (RNN).
+Uso en Machine Learning:
+
+Se usan principalmente para entrenar modelos complejos y realizar inferencia a gran escala.
+Funcionan muy bien con el framework TensorFlow y están disponibles a través de la nube en Google Cloud Platform.
+3. Unidades de Procesamiento Central (CPUs)
+Función:
+
+Las CPUs ejecutan tareas secuenciales y realizan un manejo general del sistema. A diferencia de las GPUs, están diseñadas para manejar una amplia gama de procesos y no están limitadas solo a cálculos matemáticos complejos.
+Aunque no son tan rápidas como las GPUs para procesamiento paralelo, las CPUs son muy importantes en machine learning para tareas de preprocesamiento de datos, análisis de datos, y para ejecutar algoritmos que no requieren cálculos masivos en paralelo.
+Uso en Machine Learning:
+
+Son ideales para el preprocesamiento de datos antes de entrenar modelos.
+También se utilizan en la etapa de inferencia en producción cuando los modelos ya están entrenados, especialmente en aplicaciones donde la latencia no es crítica o el volumen de datos es manejable.
+4. Memoria RAM
+Función:
+
+La RAM permite almacenar y acceder rápidamente a los datos que se están utilizando en el momento, lo cual es vital para el procesamiento rápido de grandes volúmenes de datos en machine learning.
+Tener suficiente RAM evita cuellos de botella y permite que las operaciones de machine learning, que suelen requerir grandes cantidades de datos, se procesen más rápidamente.
+Uso en Machine Learning:
+
+Es importante para almacenar grandes conjuntos de datos en la memoria para evitar cargas y descargas constantes desde el disco.
+Permite manejar matrices grandes y operaciones de alto rendimiento sin afectar significativamente la velocidad.
+5. Almacenamiento (SSD)
+Función:
+
+Los SSDs (Solid State Drives) ofrecen velocidades de lectura y escritura mucho más rápidas que los HDDs tradicionales, lo cual es útil cuando los modelos necesitan acceder y guardar datos con frecuencia.
+A diferencia de los discos duros, los SSDs no tienen partes móviles, lo que los hace más rápidos y confiables, especialmente para cargas de trabajo intensivas de datos.
+Uso en Machine Learning:
+
+Ideal para cargar grandes conjuntos de datos y modelos en la memoria rápidamente durante el entrenamiento y la inferencia.
+Ayuda a minimizar los tiempos de carga y permite almacenar múltiples versiones de modelos y datasets sin retrasos significativos.
+6. Unidades de Procesamiento de Inteligencia Artificial (AI Chips)
+Función:
+
+Los AI Chips son procesadores diseñados exclusivamente para tareas de inteligencia artificial y machine learning, permitiendo una eficiencia mucho mayor en modelos complejos.
+Están optimizados para tareas específicas de IA, como reconocimiento de patrones, procesamiento de lenguaje natural y visión por computadora.
+Uso en Machine Learning:
+
+Son ideales en centros de datos y aplicaciones de producción donde se necesita un alto rendimiento y eficiencia energética.
+Pueden realizar inferencias de manera extremadamente rápida, incluso en tiempo real.
+7. Infraestructura en la Nube
+Función:
+
+Los servicios de la nube ofrecen acceso a hardware avanzado como GPUs, TPUs y AI chips sin necesidad de adquirirlo físicamente.
+Permiten el escalamiento automático y el uso de recursos solo cuando es necesario, lo que optimiza costos y facilita la gestión de proyectos.
+Uso en Machine Learning:
+
+Es comúnmente usada para entrenamiento en paralelo y el despliegue de modelos a gran escala, como en aplicaciones de IA en producción que requieren atender a múltiples usuarios.
+La nube permite ejecutar múltiples experimentos en paralelo y almacenar grandes volúmenes de datos de forma segura.
+8. FPGAs (Field-Programmable Gate Arrays)
+Función:
+
+Las FPGAs son procesadores configurables que pueden reprogramarse para adaptarse a distintas tareas, lo que las hace útiles en aplicaciones de IA donde se requiere personalizar la estructura del hardware según el tipo de procesamiento necesario.
+Aunque no alcanzan la potencia de las GPUs en procesamiento paralelo, son muy eficientes en inferencias de machine learning cuando se requieren velocidades rápidas y menor consumo de energía.
+Uso en Machine Learning:
+
+Son útiles en tareas específicas como visión por computadora o en aplicaciones móviles y en dispositivos IoT que necesitan procesar modelos de machine learning con rapidez y eficiencia energética.
+           </p>
+
+       </section>
+                   <!--Listas-->
+              <h1>Componentes hardware</h1>
+
+           <ol>
+             <li>Unidad de Procesamiento (GPU)</li>
+             <li>Unidad de procesamiento Tensorial (TPU)</li>
+             <li>Unidad de procesamiento Central (CPU)</li>
+             <li> Memoria Ram</li>
+             <li> Almacenamiento</li>
+            <li> Al chips </li>
+            <li> Infraestructura en la nube </li>
+             <li> Field-Programmable Gate Arrays (FPGAs) </li>
+             <li> Placa base (Motherboard) </li>
+             <li> Fuente de Alimentacion (PSU)</li>
+             <li> Sistema de Refrigeracion</li>
+             <li> Cajas de Almacenamiento Externo o NAS</li>
+
+           </ol>
+       <br>
+    </article>
+                   <!--Enlaces a sitios web para compra de estos productos -->
+
+                    <h2>Sitios web para comprar estos componentes </h2>
+           <a  target="_blank"  href="https://www.mercadolibre.com.mx/">Mercado Libre</a>  <br>
+            <a  target="_blank"  href="https://www.amazon.com.mx/?&tag=hydramzkw0mx-20&ref=pd_sl_7l5x99tvs0_e&adgrpid=150779881141&hvpone=&hvptwo=&hvadid=675207151829&hvpos=&hvnetw=g&hvrand=12479065668972540923&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9143164&hvtargid=kwd-10573980&hydadcr=13958_13404205&gad_source=1"> Amazon</a>  <br> <br> <br>
+
+
+
+     <form id="formDatosPersonales" onsubmit="validarDatosPersonales(event)" >
+
+      <fieldset>
+                <legend>Formulario de datos del Usuario</legend>
+
+           <label for="Name">Nombre</label> <br>
+          <input type="text" id="Name" name="Name" placeholder="Ingresa tu nombre"> <br>
+      
+          
+           <label for="">Correo electronico</label>  <br>
+           <input type="email" id="" name="email" required> <br>
+
+           <label for="edad">Edad:</label> <br>
+           <input type="number" id="edad" name="edad" min="18" required> <br> <br>
+   
+           <button type="submit">Listo</button>
+           <button type="reset">Borrar</button> 
+          
+      </fieldset>
+
+
+     </form> <br> <br>
+
+        <!--Formulario 2 para componentes hardware-->
+
+      <form  id="formDatosComponentes" onsubmit="validarDatosComponentes(event)" >
+
+       <fieldset>
+                 <legend>Formulario para componentes hardware</legend>
+
+      <label for="Componentes">GPU</label>
+      <input type="checkbox"  name="Componentes" value="gpu">
+
+      <label for="Componentes">CPU</label>
+      <input type="checkbox" name="Componentes"  value="cpu">
+
+       <label for="Componentes">RAM</label>
+       <input type="checkbox" name="Componentes" value="ram">
+
+      <label for="Componentes">SSD</label>
+      <input type="checkbox" name="Componentes" value="ssd">
+
+      <label for="Componentes">PSU</label>
+      <input type="checkbox" name=" Componentes" value="psu">
+
+      <label for="otrosComponentes">Otros componentes:</label>
+        <textarea id="otrosComponentes" name="otrosComponentes" rows="4" cols="50" placeholder="Indica aquí otros componentes relevantes"></textarea><br><br>
+
+        <button type="submit">Listo</button>
+        <button type="reset">Borrar</button>
+
+       </fieldset>
+
+      </form>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
